@@ -32,6 +32,6 @@ function same(arr1, arr2) {
   return true;
 }
 
-const r = same([1, 5, 2, 3], [1, 4, 9, 25]); // true
+const r = same([1, 5, 2, 3, 3], [1, 4, 9, 25, 9]); // true
 
 console.log(r);
